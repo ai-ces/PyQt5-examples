@@ -24,7 +24,7 @@ class Pencere (QtWidgets.QWidget):
         if onay_kutusu:
             self.etiket.setText("Uyelik isleminiz basariyla gerceklesmistir.")
         else:
-            self.etiket.setText("Sozlesmeyi onaylamadan uye olamazsiniz")
+            self.etiket.setText("Lutfen tekrar deneyiniz")
 
 obje = QtWidgets.QApplication(sys.argv)
 pencere = Pencere()
